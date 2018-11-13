@@ -1,15 +1,15 @@
-$(call inherit-product, device/sharp/LA29/full_LA29.mk)
+$(call inherit-product, device/sharp/pa31/full_pa31.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_LA29
-BOARD_VENDOR := Sharp
-TARGET_VENDOR := Sharp
-PRODUCT_DEVICE := LA29
+PRODUCT_NAME := cm_pa31
+BOARD_VENDOR := SG
+TARGET_VENDOR := SG
+PRODUCT_DEVICE := pa31
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE="SG404SH" \
-    PRODUCT_NAME="SG404SH" \
-    BUILD_FINGERPRINT="SG/SG404SH/SG404SH:5.0.2/F317Q/00.00.00:eng/test-keys" \
-    PRIVATE_BUILD_DESC="SG404SH-eng 5.0.2 F317Q 00.00.00 test-keys"
+    PRODUCT_DEVICE="SG503SH" \
+    PRODUCT_NAME="SG503SH" \
+    BUILD_FINGERPRINT="DOCOMO/DM-01H/DM-01H:5.1.1/F827G/00.00.00:eng/test-keys" \
+    PRIVATE_BUILD_DESC="DM-01H-eng 5.1.1 F827G 00.00.00 test-keys"

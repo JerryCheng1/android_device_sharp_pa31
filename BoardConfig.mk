@@ -16,6 +16,9 @@
 # inherit from msm8992-common
 -include device/sharp/msm8992-common/BoardConfigCommon.mk
 
+# Kernel
+TARGET_KERNEL_CONFIG := lineageos_pa31_defconfig
+
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
